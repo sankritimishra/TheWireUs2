@@ -1,36 +1,11 @@
-# WireUs
+TheWireUsChallenge2.0 
 
-#For Updating Challenges:<br>
-To add the Poster:<br>
-1.Go to Calendar/Challenges/{nameofthechallenge}   For example Calendar/Challenges/SQL<br>
-2.Save the file/image name as {day(2digits minimum)}_{shortnameofthechallenge}  For example 02_SQL.png <br>
+∗ The project is a web application offering a comprehensive learning experience in 12+ domains such as UI/UX,
+JavaScript, and Machine Learning etc. It serves as a platform where users can engage in coding challenges.
+∗ It has daily, 7 days, 30 days,100days challenges along with a team of 9 members to create a platform suitable
+for a holistic experience.
 
-Add the link to the respective page:<br>
-1.Go to Calendar/Calendar-{nameofthechallenge}.html<br>
-2.After the line number 200(approx) you will find something like this:<br>
-Select div with id="day for which you are updating"<br>
-```html
-
-<div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
-    <div **class="disabled"**> Remove this class and replace it with "<div>"
-        **add image path in "a" tag href**
-        <a href="Challenges/{nameofthechallenge}/{day(2digits minimum)}_{shortnameofthechallenge}" download>
-            <div class=" heading1">Click Here</div>
-            <div class=" heading2">To Download Today's Challenge</div>
-        </a>
-    </div>
-</div>
-
-```
-
-For example updating day 2 of sql:
-```html
-<div class="collapse " id="{{day_your_are_updating}}" data-parent="#myGroup">
-    <div> 
-        <a href="Challenges/SQL/02_SQL.png" download>
-            <div class=" heading1">Click Here</div>
-            <div class=" heading2">To Download Today's Challenge</div>
-        </a>
-    </div>
-</div>
-```
+![wireUs 1](https://github.com/sankritimishra/TheWireUs2/assets/104777910/f845e41c-3aa4-4604-8926-3c3427de1e80)
+![wireUs2](https://github.com/sankritimishra/TheWireUs2/assets/104777910/ec7bfd8f-b079-4de9-8722-074e1dee6114)
+![wireus3](https://github.com/sankritimishra/TheWireUs2/assets/104777910/991a98e7-78fa-4a20-9047-f851b65ccdd9)
+![wireus 4](https://github.com/sankritimishra/TheWireUs2/assets/104777910/c5a8b3ef-e44b-4f71-825b-e93c127fd016)
